@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { Page404Component } from './page404/page404.component';
+import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { Page404Component } from './page404/page404.component';
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    Page404Component
+    Page404Component,
+    ProductAlertsComponent
   ],
   bootstrap: [
     AppComponent
